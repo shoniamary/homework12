@@ -103,7 +103,7 @@ header {
 
 .section {
     height: 898px;
-    background: url("../images/cover.png");
+    background: url("../images/cover\ image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -139,7 +139,7 @@ header {
     row-gap: 24px;
 }
 
-/* name and email */
+
 
 .main_info_inputs {
     display: flex;
@@ -160,7 +160,7 @@ header {
 
 }
 
-/* radio */
+
 
 .radio_container {
     display: flex;
@@ -215,7 +215,7 @@ header {
     line-height: 26px;
 }
 
-/* textarea */
+
 
 .textarea_container {
     display: flex;
@@ -236,7 +236,7 @@ textarea {
     line-height: 26px;
 }
 
-/* checkbox */
+
 
 input[type=checkbox] {
     appearance: none;
@@ -256,7 +256,7 @@ input[type=checkbox]:checked::before {
     color: var(--main-light-color);
 }
 
-/* btn */
+
 .section_form_btn {
     margin-top: 16px;
     padding: 19px 0px;
